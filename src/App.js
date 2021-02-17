@@ -1,8 +1,21 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
+import Sort from "./pages/Sort";
+import Search from "./pages/Search";
 
 function App() {
-  return <h1>GREETINGS!</h1>;
+  return (
+    <Router>
+      <div>
+        <NavBar />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/search" component={Search} />
+        <Route exact path="/sort" component={Sort} />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
