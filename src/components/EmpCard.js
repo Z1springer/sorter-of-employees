@@ -1,7 +1,6 @@
 import React from "react";
 
-function EmpCard() {
-  const props = this.results;
+function EmpCard(props) {
   return (
     <div className="card">
       <div className="img-container">
