@@ -1,11 +1,3 @@
-import React from "react";
+// import React from "react";
 
-function Sort() {
-  return (
-    <div>
-      <p>Hmmmmmmmmmmmmmmmmmmm...</p>
-    </div>
-  );
-}
-
-export default Sort;
+// export default Sort;
