@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Sort from "./pages/Sort";
-import Search from "./pages/Search";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <div>
         <NavBar />
         <Route exact path="/" component={Home} />
-        <Route exact path="/search" component={Search} />
         <Route exact path="/sort" component={Sort} />
       </div>
     </Router>
