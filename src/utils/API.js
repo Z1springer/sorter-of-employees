@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = {
-  searchByGender: (gender) => {
-    return axios(`https://randomuser.me/api/?gender=${gender}`);
+  search: () => {
+    return axios(`https://randomuser.me/api/?results=30`);
   },
 };
 
