@@ -2,9 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![image](https://user-images.githubusercontent.com/74688904/108309730-ee16b300-7166-11eb-94fa-e4b6ae80621a.png)
+
 ## Description
 
-This application is doing nothing more than sorting a set of randomised random fake people(or if you fork it whatever you choose it to be). One can also filter out a specific employee by their first name. There is nothing else to this application...
+This application is doing nothing more than sorting a set of randomised random fake people (or if you fork it whatever you choose it to be). One can also filter out a specific employee by their first name. There is nothing else to this application...
 
 ## Table of Contents
 
@@ -46,13 +48,6 @@ If you have questions take a look at my GitHub
 Or send me an email
 
 [zdspringer99@gmail.com](mailto:zdspringer99@gmail.com)
-
-## Notes from Joes' Demo
-
-series of react componants that generates a list of employees, sort them alphabetically both asc and desc
-
-~ random userAPI needed
-~ controlled form inputs are controlled ONLY by react, you are always using these, no real use-case for the alternative
 
 Denis' Deploying a react app Demo
 
